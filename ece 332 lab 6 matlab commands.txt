@@ -1,0 +1,76 @@
+%-- 2/25/2013 4:37 PM --%
+4-2
+6*6
+8/2
+r=[38.5,42,50,55,63.25,75.25,85.25,73.75,102.25,128,143.25]
+ss=[0,-1,-2,-3,-4,-5,-6,-7,-8,-9,-10]
+plot(r,ss)
+help plot
+plot(r,ss)
+xlabel('Distance (cm)')
+ylabel('Signal Strength (dB)')
+graph(r,ss)
+plot(r,ss)
+plot(r,ss,'o')
+plot(r^-1,ss,'o')
+r=40:160;
+y=1/.r;
+y=1./r;
+plot(r,y);
+figure on;
+plot on;
+hold on;
+r=[38.5,42,50,55,63.25,75.25,85.25,73.75,102.25,128,143.25];
+plot(r,ss);
+plot(r,ss,'o');
+y=1./r;
+plot(r,ss,'o',r,y);
+plot(r,ss,'o');
+plot(r,ss)
+plot(r,ss,'o')
+A0=sum(r.2*ss)/length(r);
+A0=sum(r.^2.*ss)/length(r);
+Y2=A0./(r.^2);
+plot(r,ss,r,Y2)
+plot(r,Y2)
+A0./(r.^2)
+r
+1./r
+r
+r1=r.^-1
+r2=r.^-2
+r3=r.^-3
+plot(r,ss,'o')
+r.^2
+1./ans
+A0*ans
+plot(r,ss,'o';r1,ss;r2,ss;r3,ss)
+plot(r,ss,'o')
+hold on;
+plot(r2,ss)
+hold on;
+plot(r1,ss)
+plot(r3,ss)
+ss1=10.^((ss)/-20)
+A0=sum(r.2*ss)/length(r);
+A1=sum(r.^2*ss1)/length(r);
+A1=sum(r.^2.*ss1)/length(r);
+plot(A1./r2,ss1)
+plot(A1./r2,ss)
+hold on;
+plot(r,ss)
+r
+r2
+plot(r1,ss)
+hold on;
+plot(r2,ss)
+r1
+r2
+plot(r,ss,'o')
+plot(r1,ss)
+plot(A1.*r2,ss)
+plot(r,ss,'o')
+hold on;
+plot(A1.*r2,ss)
+plot(-A1.*r2,ss)
+plot(r,ss,'o')
